@@ -1,0 +1,36 @@
+{
+  "name": "@vonage/eslint-config",
+  "version": "1.0.1",
+  "description": "ESLint rules for Vonage",
+  "homepage": "https://github.com/Vonage-Community/vonage-eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/Vonage-Community/vonage-eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vonage-Community/vonage-eslint-config.git"
+  },
+  "license": "Apache-2.0",
+  "author": "",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@eslint/js": "9.3.0",
+    "@stylistic/eslint-plugin": "2.1.0",
+    "@stylistic/eslint-plugin-ts": "2.1.0",
+    "eslint": "9.3.0",
+    "eslint-plugin-jest": "28.5.0",
+    "eslint-plugin-jsdoc": "48.2.6",
+    "eslint-plugin-n": "17.7.0",
+    "typescript-eslint": "8.0.0-alpha.20"
+  },
+  "devDependencies": {
+    "jest": "29.7.0"
+  }
+}
