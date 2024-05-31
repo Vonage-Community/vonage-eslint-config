@@ -1,6 +1,6 @@
 {
   "name": "@vonage/eslint-config",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "ESLint rules for Vonage",
   "homepage": "https://github.com/Vonage-Community/vonage-eslint-config#readme",
   "bugs": {
