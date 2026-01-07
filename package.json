@@ -1,6 +1,6 @@
 {
   "name": "@vonage/eslint-config",
-  "version": "1.2.0",
+  "version": "1.3.1",
   "description": "ESLint rules for Vonage",
   "homepage": "https://github.com/Vonage-Community/vonage-eslint-config#readme",
   "bugs": {
@@ -11,23 +11,26 @@
     "url": "git+https://github.com/Vonage-Community/vonage-eslint-config.git"
   },
   "license": "Apache-2.0",
-  "author": "",
   "type": "module",
+  "contributors": [
+    {
+      "name": "Chuck \"MANCHUCK\" Reeves",
+      "url": "https://github.com/manchuck"
+    }
+  ],
   "main": "lib/index.js",
   "files": [
     "src"
   ],
-  "scripts": {
-    "lint": "eslint ."
-  },
   "dependencies": {
     "@eslint/js": "^9.9.0",
-    "@stylistic/eslint-plugin": "^2.6.4",
-    "@stylistic/eslint-plugin-ts": "^2.6.4",
-    "eslint": "^9.9.0",
+    "@stylistic/eslint-plugin": "2.6.4",
+    "@stylistic/eslint-plugin-ts": "2.6.4",
+    "eslint": "9.9.0",
     "eslint-plugin-jest": "^28.8.0",
-    "eslint-plugin-jsdoc": "^50.2.2",
-    "eslint-plugin-n": "^17.10.2",
-    "typescript-eslint": "^8.2.0"
+    "eslint-plugin-jsdoc": "50.2.2",
+    "eslint-plugin-n": "17.10.2",
+    "eslint-plugin-package-json": "0.88.1",
+    "typescript-eslint": "8.2.0"
   }
 }
